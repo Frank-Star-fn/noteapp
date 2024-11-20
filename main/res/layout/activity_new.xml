@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:src="@drawable/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="#0085D8EC"
+            android:layout_marginStart="8dp"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/back" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="45dp"
+            android:layout_alignParentEnd="true"
+            android:text="@string/save"
+            android:background="@color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/button_option"
+            android:src="@drawable/button_option"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="#0085D8EC"
+            android:scaleType="fitCenter"
+            android:layout_alignParentEnd="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/option" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="88dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="text"
+            android:text=""
+            android:textSize="19sp"
+            android:background="@color/transparent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            android:autofillHints="标题" />
+
+        <Button
+            android:id="@+id/button_type"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginStart="25dp"
+            android:text=""
+            android:textSize="12sp"
+            android:textColor="#FF666666"
+            android:background="@color/transparent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/type" />
+
+        <Button
+            android:id="@+id/button_had_remind"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:padding="0dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="25dp"
+            android:layout_alignParentEnd="true"
+            android:text="@string/remind"
+            android:textSize="12sp"
+            android:textColor="#FF666666"
+            android:background="@color/grey_EE"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="0dp"
+            tools:context=".MainActivity">
+
+            <ScrollView
+                android:id="@+id/inertia_scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="158dp"
+                tools:ignore="MissingClass">
+
+                <EditText
+                    android:id="@+id/editTextNote2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:ems="10"
+
+                    android:gravity="top|start"
+                    android:inputType="textMultiLine"
+                    android:text=""
+                    android:visibility="visible"
+                    android:lineSpacingExtra="2dp"
+                    android:background="@android:color/transparent"
+
+                    tools:ignore="LabelFor,MissingConstraints"
+                    android:autofillHints=""
+                    android:contentDescription=""
+                    />
+            </ScrollView>
+
+
+        <Button
+            android:id="@+id/button_fill"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="0dp"
+            android:background="#00AAAAAA"
+            android:text=""
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/get_focus" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

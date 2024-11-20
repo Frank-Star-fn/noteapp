@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">noteapp</string>
+    <string name="delete">删除</string>
+    <string name="remind">提醒</string>
+    <string name="type">类别</string>
+    <string name="new_type">新建类别</string>
+    <string name="create">新建</string>
+    <string name="modify_type_to">修改类别为</string>
+    <string name="cancel">取消</string>
+    <string name="remove_remind">移除提醒</string>
+    <string name="reset">重新设置</string>
+    <string name="remind_time_has_been_set">已设置提醒时间</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="option">选项</string>
+    <string name="get_focus">get_focus</string>
+    <string name="note_list">note_list</string>
+    <string name="add">+</string>
+    <string name="note">笔记</string>
+    <string name="all_notes">全部笔记</string>
+    <string name="unclassified_notes">未分类笔记</string>
+    <string name="rename">重命名</string>
+    <string name="set_remind">设置提醒</string>
+    <string name="finish">完成</string>
+    <string name="input_20yy_mm_dd_hh_mm">输入格式为 20YY:MM:DD:HH:MM</string>
+    <string name="_20yy_mm_dd_hh_mm">20YY:MM:DD:HH:MM</string>
+    <string name="input_type_name">输入类别名称</string>
+</resources>

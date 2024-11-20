@@ -1,0 +1,8 @@
+<!-- res/drawable/popup_window_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white"/> <!-- 背景颜色 -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/grey_DD"/> <!-- 边框颜色 -->
+    <corners android:radius="8dp"/> <!-- 圆角半径 -->
+</shape>
